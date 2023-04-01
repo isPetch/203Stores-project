@@ -43,16 +43,16 @@ const discount = computed(() => {
   let backgroundColor = '#D7D7D7'
 
   if (updateHistory.value.customerType === 'Member') {
-    if (totalAmount >= 2500) {
+    if (totalAmount >= 30000) {
       discountPercentage = 30
       backgroundColor = '#9DE3BB'
-    } else if (totalAmount >= 2000) {
+    } else if (totalAmount >= 15000) {
       discountPercentage = 20
       backgroundColor = '#9DE3BB'
-    } else if (totalAmount >= 1000) {
+    } else if (totalAmount >= 5000) {
       discountPercentage = 10
       backgroundColor = '#9DE3BB'
-    } else if (totalAmount >= 100) {
+    } else if (totalAmount >= 1000) {
       discountPercentage = 5
       backgroundColor = '#9DE3BB'
     }
