@@ -1,17 +1,9 @@
 <script setup>
-import {ref} from 'vue'
-//import HistoryList from './components/HistoryList.vue';
-import AddEdit from './components/AddEdit.vue'
-import Nav from './components/Nav.vue';
+import Nav from './components/Nav.vue'
 import { RouterView } from 'vue-router'
 
-const currentComponent = ref('Historymanagement')
-const setCurrentComponent = (currentCompo) => {
-  currentComponent.value =currentCompo
-}
-
 const addNewHistory= async(newHistory)=>{
-  // console.log(newHistory)
+ 
   try{
     const res=await fetch('http://localhost:4000/history', {
       method: 'POST',
