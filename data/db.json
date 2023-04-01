@@ -1,0 +1,105 @@
+{
+  "history": [
+    {
+      "numbers": [
+        {
+          "value": 20
+        },
+        {
+          "value": 80
+        }
+      ],
+      "customerType": "Member",
+      "subTotal": 100,
+      "discount": 5,
+      "total": 95,
+      "dateTime": "29/3/2566 15:33:15",
+      "id": 10
+    },
+    {
+      "numbers": [
+        {
+          "value": 250
+        },
+        {
+          "value": 310
+        },
+        {
+          "value": 100
+        }
+      ],
+      "customerType": "Guest",
+      "subTotal": 660,
+      "discount": 0,
+      "total": 660,
+      "dateTime": "29/3/2566 18:21:39",
+      "id": 15
+    },
+    {
+      "numbers": [
+        {
+          "value": 150
+        }
+      ],
+      "customerType": "Member",
+      "subTotal": 150,
+      "discount": 5,
+      "total": 142.5,
+      "dateTime": "29/3/2566 18:22:58",
+      "id": 17
+    },
+    {
+      "numbers": [
+        {
+          "value": 250
+        },
+        {
+          "value": 320
+        },
+        {
+          "value": 55
+        },
+        {
+          "value": 314
+        },
+        {
+          "value": 61
+        }
+      ],
+      "customerType": "Member",
+      "subTotal": 1000,
+      "discount": 10,
+      "total": 900,
+      "dateTime": "29/3/2566 18:23:19",
+      "id": 18
+    },
+    {
+      "numbers": [
+        {
+          "value": 25
+        },
+        {
+          "value": 12
+        },
+        {
+          "value": 23
+        },
+        {
+          "value": 3
+        },
+        {
+          "value": 12
+        },
+        {
+          "value": 45
+        }
+      ],
+      "customerType": "Member",
+      "subTotal": 120,
+      "discount": 5,
+      "total": 114,
+      "dateTime": "1/4/2566 12:29:01",
+      "id": 19
+    }
+  ]
+}
